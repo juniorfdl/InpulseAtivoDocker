@@ -15,7 +15,6 @@ services:
   app_frontend:
     container_name: "infotec.ativo.frontend"    
     build: ./frontend
-    # command: ['node', 'server.js']
     restart: unless-stopped
     ports:
       - 8080:8080
